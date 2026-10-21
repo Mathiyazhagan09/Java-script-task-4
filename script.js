@@ -115,7 +115,7 @@ console.log(arr2);*/
 
         //Array Destructuring
 //21.
-let person={
+/*let person={
     name:"Mathiyazhagan",
     role:"FullStack",
     Location:"Dharmapuri"
@@ -123,5 +123,15 @@ let person={
 let {name,role,Location}=person;
 console.log(name);
 console.log(role);
-console.log(Location);
+console.log(Location);*/
+
+//22.
+let nested = [1, 2, [3, 4, [5, 6]]];
+let [a, b, [c, d, [e, f]]] = nested;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
+console.log(f);
 
