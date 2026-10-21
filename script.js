@@ -126,12 +126,118 @@ console.log(role);
 console.log(Location);*/
 
 //22.
-let nested = [1, 2, [3, 4, [5, 6]]];
+/*let nested = [1, 2, [3, 4, [5, 6]]];
 let [a, b, [c, d, [e, f]]] = nested;
 console.log(a);
 console.log(b);
 console.log(c);
 console.log(d);
 console.log(e);
-console.log(f);
+console.log(f);*/
+
+//23.
+/*let student = ["Mathi", 25, 8.5];
+let [name, age, cgpa] = student;
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("CGPA:", cgpa);*/
+
+//24.
+/*let person = {
+    name: "Mathi",
+    role: "Web Developer",
+    location: "Salem"
+};
+
+let { name, role, location } = person;
+
+console.log(name);
+console.log(role);
+console.log(location);*/
+
+//25.
+/*let student = {
+    name: "Mathi",
+    address: {
+        city: "Salem",
+        state: "Tamil Nadu"
+    }
+};
+
+let {
+    address: { city, state }
+} = student;
+
+console.log(city);
+console.log(state);*/
+
+//26.
+/*let employee = {
+    name: "Mathi",
+    role: "Digital Marketer",
+    location: {
+        mainLocation: "Salem",
+        currentLocation: "Chennai"
+    }
+};
+
+let {
+    name,
+    role,
+    location: { mainLocation, currentLocation }
+} = employee;
+
+console.log(name);
+console.log(role);
+console.log(mainLocation);
+console.log(currentLocation);*/
+
+//27.
+/*let numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+numbers.shift();
+numbers.pop();
+
+numbers.unshift(5, 15);
+
+console.log(numbers);*/
+
+//28.
+/*let numbers = [10, 20, 30, 20, 40, 20, 50];
+
+let value = 20;
+
+console.log(numbers.includes(value));
+console.log(numbers.indexOf(value));
+console.log(numbers.lastIndexOf(value));*/
+
+//29.
+/*let employee1 = {
+    name: "Mathi",
+    age: 25
+};
+
+let employee2 = {
+    role: "Web Developer",
+    salary: 25000
+};
+
+let employee = {
+    ...employee1,
+    ...employee2
+};
+
+let { name, role } = employee;
+
+console.log("Employee Name:", name);
+console.log("Employee Role:", role);*/
+
+//30.
+let num = [1, [2, 3], [4, [5, 6]], 7];
+
+let result = num.flat(Infinity);
+
+result.reverse();
+
+console.log(result);
 
